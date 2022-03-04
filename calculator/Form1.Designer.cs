@@ -49,6 +49,10 @@
             this.btncot = new System.Windows.Forms.Button();
             this.btnsec = new System.Windows.Forms.Button();
             this.btncsc = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.btnreset = new System.Windows.Forms.Button();
+            this.radDEGREE = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txtdisplay
@@ -74,6 +78,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -87,6 +92,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -100,6 +106,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -113,6 +120,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -126,6 +134,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -139,6 +148,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -152,6 +162,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -165,6 +176,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -178,6 +190,7 @@
             this.button9.TabIndex = 9;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -191,6 +204,7 @@
             this.button10.TabIndex = 10;
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btnplus
             // 
@@ -204,6 +218,7 @@
             this.btnplus.TabIndex = 11;
             this.btnplus.Text = "+";
             this.btnplus.UseVisualStyleBackColor = false;
+            this.btnplus.Click += new System.EventHandler(this.btnplus_Click);
             // 
             // btnminus
             // 
@@ -217,6 +232,7 @@
             this.btnminus.TabIndex = 12;
             this.btnminus.Text = "-";
             this.btnminus.UseVisualStyleBackColor = false;
+            this.btnminus.Click += new System.EventHandler(this.btnminus_Click);
             // 
             // btntimes
             // 
@@ -230,6 +246,7 @@
             this.btntimes.TabIndex = 13;
             this.btntimes.Text = "*";
             this.btntimes.UseVisualStyleBackColor = false;
+            this.btntimes.Click += new System.EventHandler(this.btntimes_Click);
             // 
             // btndivide
             // 
@@ -243,6 +260,7 @@
             this.btndivide.TabIndex = 14;
             this.btndivide.Text = "/";
             this.btndivide.UseVisualStyleBackColor = false;
+            this.btndivide.Click += new System.EventHandler(this.btndivide_Click);
             // 
             // btnsin
             // 
@@ -256,6 +274,7 @@
             this.btnsin.TabIndex = 15;
             this.btnsin.Text = "sin";
             this.btnsin.UseVisualStyleBackColor = false;
+            this.btnsin.Click += new System.EventHandler(this.btnsin_Click);
             // 
             // btncos
             // 
@@ -269,6 +288,7 @@
             this.btncos.TabIndex = 16;
             this.btncos.Text = "cos";
             this.btncos.UseVisualStyleBackColor = false;
+            this.btncos.Click += new System.EventHandler(this.btncos_Click);
             // 
             // btntan
             // 
@@ -282,6 +302,7 @@
             this.btntan.TabIndex = 17;
             this.btntan.Text = "tan";
             this.btntan.UseVisualStyleBackColor = false;
+            this.btntan.Click += new System.EventHandler(this.btntan_Click);
             // 
             // btncot
             // 
@@ -293,8 +314,9 @@
             this.btncot.Name = "btncot";
             this.btncot.Size = new System.Drawing.Size(134, 106);
             this.btncot.TabIndex = 20;
-            this.btncot.Text = "cot";
+            this.btncot.Text = "tanh";
             this.btncot.UseVisualStyleBackColor = false;
+            this.btncot.Click += new System.EventHandler(this.btncot_Click);
             // 
             // btnsec
             // 
@@ -306,8 +328,9 @@
             this.btnsec.Name = "btnsec";
             this.btnsec.Size = new System.Drawing.Size(134, 106);
             this.btnsec.TabIndex = 19;
-            this.btnsec.Text = "sec";
+            this.btnsec.Text = "cosh";
             this.btnsec.UseVisualStyleBackColor = false;
+            this.btnsec.Click += new System.EventHandler(this.btnsec_Click);
             // 
             // btncsc
             // 
@@ -319,14 +342,69 @@
             this.btncsc.Name = "btncsc";
             this.btncsc.Size = new System.Drawing.Size(134, 106);
             this.btncsc.TabIndex = 18;
-            this.btncsc.Text = "csc";
+            this.btncsc.Text = "sinh";
             this.btncsc.UseVisualStyleBackColor = false;
+            this.btncsc.Click += new System.EventHandler(this.btncsc_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(142, 583);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 25);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "steven john sunga";
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.SteelBlue;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button11.Location = new System.Drawing.Point(756, 530);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(134, 106);
+            this.button11.TabIndex = 22;
+            this.button11.Text = "=";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // btnreset
+            // 
+            this.btnreset.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnreset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnreset.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnreset.Location = new System.Drawing.Point(604, 530);
+            this.btnreset.Name = "btnreset";
+            this.btnreset.Size = new System.Drawing.Size(134, 106);
+            this.btnreset.TabIndex = 23;
+            this.btnreset.Text = "reset";
+            this.btnreset.UseVisualStyleBackColor = false;
+            this.btnreset.Click += new System.EventHandler(this.btnreset_Click);
+            // 
+            // radDEGREE
+            // 
+            this.radDEGREE.AutoSize = true;
+            this.radDEGREE.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radDEGREE.Location = new System.Drawing.Point(147, 543);
+            this.radDEGREE.Name = "radDEGREE";
+            this.radDEGREE.Size = new System.Drawing.Size(100, 29);
+            this.radDEGREE.TabIndex = 25;
+            this.radDEGREE.TabStop = true;
+            this.radDEGREE.Text = "DEGREE";
+            this.radDEGREE.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1333, 805);
+            this.Controls.Add(this.radDEGREE);
+            this.Controls.Add(this.btnreset);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btncot);
             this.Controls.Add(this.btnsec);
             this.Controls.Add(this.btncsc);
@@ -348,7 +426,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtdisplay);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -379,6 +459,10 @@
         private System.Windows.Forms.Button btncot;
         private System.Windows.Forms.Button btnsec;
         private System.Windows.Forms.Button btncsc;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnreset;
+        private System.Windows.Forms.RadioButton radDEGREE;
     }
 }
 
