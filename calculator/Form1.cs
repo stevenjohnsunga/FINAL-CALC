@@ -15,6 +15,7 @@ namespace calculator
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("COMMENT");
         }
         double fnum = 0;
         double snum = 0;
